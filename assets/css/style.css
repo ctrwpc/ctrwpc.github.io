@@ -1151,6 +1151,27 @@ section {
 .testimonials .testimonials-carousel, .testimonials .testimonials-slider {
   overflow: hidden;
 }
+.testimonials .post-box {
+  font-style: italic;
+  box-sizing: content-box;
+  min-height: 10px;
+  background: #f6f9ff;
+  border: #f542bf;
+  position: relative;
+  box-sizing: content-box;
+  margin: 10px 2px 5px 45px;
+  z-index: 1;
+  border-radius: 20px;
+}
+.testimonials .month{display:inline-block;border-radius:0 3px 3px 0;padding:5px 13px;color:#fff;font-size:20px;font-weight:700;background:  #f542bf;}
+.testimonials .date{display:inline-block;border-radius:3px 0 0 3px;padding:5px 10px;color:#fff;font-size:20px;font-weight:700;text-align:center;background:#4154f1  ;float:left}
+
+.testimonials .date1{display:inline-block;border-radius:1px 0 0 3px;padding:5px 5px;color:#fff;font-size:15px;font-weight:700;text-align:center;background:#4154f1  ;float:right}
+
+
+
+
+
 .testimonials .testimonial-item {
   box-sizing: content-box;
   min-height: 10px;
@@ -1170,7 +1191,7 @@ section {
   color: white;
 }
 .testimonials .testimonial-item h4 {
-  font-size: 14px;
+  font-size: 14p white;x;
   color: rgba(255, 255, 255, 0.6);
   margin: 0 0 0 45px;
 }
